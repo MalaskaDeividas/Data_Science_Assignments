@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <entry key="Use constant URI" type="xboolean" value="true"/>
-        <entry key="Constant URI" type="xstring" value="https://www.google.com"/>
+        <entry key="Constant URI" type="xstring" value="https://opendata-download-metobs.smhi.se/api/version/1.0/parameter/19/station/97400/period/latest-months/data.json"/>
         <entry key="URI column" type="xstring" isnull="true" value=""/>
         <entry key="delay_enabled" type="xboolean" value="false"/>
         <entry key="delay" type="xlong" value="0"/>
@@ -107,8 +107,17 @@
         <entry key="follow redirects" type="xboolean" value="true"/>
         <entry key="connectTimeout" type="xint" value="5"/>
         <entry key="readTimeout" type="xint" value="120"/>
+        <config key="delayPolicy">
+            <entry key="delayRetryBase" type="xlong" value="1"/>
+            <entry key="delayMaxRetries" type="xint" value="3"/>
+            <entry key="delayRateLimitCooldown" type="xlong" value="60"/>
+            <entry key="delayRetriesEnabled" type="xboolean" value="false"/>
+            <entry key="delayCooldownEnabled" type="xboolean" value="false"/>
+        </config>
         <entry key="failOnServerError" type="xboolean" value="false"/>
         <entry key="failOnClientError" type="xboolean" value="false"/>
+        <entry key="outputErrorCause" type="xboolean" value="false"/>
+        <entry key="allowChunking" type="xboolean" value="true"/>
         <config key="Invalid URL handling_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -174,6 +183,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="29661113-f634-4e16-8a01-f2a2423e85d8"/>
+        <entry key="file_store_id" type="xstring" value="69630c9e-ba61-48d1-bd78-8b2ab7e008be"/>
     </config>
 </config>
