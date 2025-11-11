@@ -13,7 +13,7 @@
                     <entry key="regularChoice" type="xstring" isnull="true" value=""/>
                     <entry key="specialChoice_Internals" type="xstring" value="ROW_NUMBER"/>
                 </config>
-                <entry key="operator" type="xstring" value="GT"/>
+                <entry key="operator" type="xstring" value="GTE"/>
                 <config key="predicateValues">
                     <config key="values">
                         <config key="0">
@@ -21,7 +21,7 @@
                                 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                                 <entry key="is_null" type="xboolean" value="false"/>
                             </config>
-                            <entry key="value" type="xlong" value="29592"/>
+                            <entry key="value" type="xlong" value="50410"/>
                         </config>
                     </config>
                     <entry key="inputKind" type="xstring" value="SINGLE"/>
@@ -32,7 +32,7 @@
                     <entry key="regularChoice" type="xstring" isnull="true" value=""/>
                     <entry key="specialChoice_Internals" type="xstring" value="ROW_NUMBER"/>
                 </config>
-                <entry key="operator" type="xstring" value="LT"/>
+                <entry key="operator" type="xstring" value="LTE"/>
                 <config key="predicateValues">
                     <config key="values">
                         <config key="0">
@@ -40,7 +40,7 @@
                                 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                                 <entry key="is_null" type="xboolean" value="false"/>
                             </config>
-                            <entry key="value" type="xlong" value="29959"/>
+                            <entry key="value" type="xlong" value="50775"/>
                         </config>
                     </config>
                     <entry key="inputKind" type="xstring" value="SINGLE"/>
@@ -93,6 +93,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="cd043b5d-d185-426a-b84a-aa037ae0042a"/>
+        <entry key="file_store_id" type="xstring" value="7e5bccc2-e7b1-4601-b4b6-9c4313d4d4fd"/>
     </config>
 </config>

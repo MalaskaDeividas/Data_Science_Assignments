@@ -10,7 +10,7 @@
         <entry key="enableEscapingWildcard" type="xboolean" value="false"/>
         <entry key="caseSensitivity" type="xstring" value="CASESENSITIVE"/>
         <entry key="searchString" type="xstring" value="Mäthöjd (meter över marken)"/>
-        <entry key="replaceString" type="xstring" value="min Temp"/>
+        <entry key="replaceString" type="xstring" value="Temp"/>
         <entry key="replacementStrategy" type="xstring" value="WHOLE_STRING"/>
         <entry key="properlySupportUnicodeCharacters" type="xboolean" value="true"/>
         <entry key="resolveNamingCollisionsOnlyForRenamedColumns" type="xboolean" value="true"/>
@@ -58,6 +58,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="15d8e3b3-061c-458a-af2e-54cd38b35173"/>
+        <entry key="file_store_id" type="xstring" value="f298bb5a-b10d-4b29-b7f7-5842713d5987"/>
     </config>
 </config>

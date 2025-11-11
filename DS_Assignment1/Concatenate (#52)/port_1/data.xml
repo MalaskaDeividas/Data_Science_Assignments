@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="table_meta_info">
-    <entry key="table_ID" type="xint" value="17083"/>
+    <entry key="table_ID" type="xint" value="17271"/>
     <entry key="table_type" type="xstring" value="concatenate_table"/>
     <config key="table_references">
         <entry key="array-size" type="xint" value="0"/>
@@ -8,10 +8,10 @@
     <config key="meta_internal">
         <config key="table_reference_IDS">
             <entry key="array-size" type="xint" value="4"/>
-            <entry key="0" type="xint" value="17067"/>
-            <entry key="1" type="xint" value="17070"/>
-            <entry key="2" type="xint" value="17072"/>
-            <entry key="3" type="xint" value="17074"/>
+            <entry key="0" type="xint" value="17245"/>
+            <entry key="1" type="xint" value="17253"/>
+            <entry key="2" type="xint" value="17269"/>
+            <entry key="3" type="xint" value="17267"/>
         </config>
         <entry key="table_rowcount" type="xint" value="1464"/>
         <entry key="duplicate_row_key_suffix" type="xstring" isnull="true" value=""/>

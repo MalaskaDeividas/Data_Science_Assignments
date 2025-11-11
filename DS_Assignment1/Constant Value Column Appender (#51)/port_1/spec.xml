@@ -39,7 +39,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_3">
-        <entry key="column_name" type="xstring" value="min Temp"/>
+        <entry key="column_name" type="xstring" value="Temp"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>

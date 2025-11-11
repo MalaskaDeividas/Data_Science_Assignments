@@ -21,7 +21,7 @@
                                 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                                 <entry key="is_null" type="xboolean" value="false"/>
                             </config>
-                            <entry key="value" type="xlong" value="5210"/>
+                            <entry key="value" type="xlong" value="5209"/>
                         </config>
                     </config>
                     <entry key="inputKind" type="xstring" value="SINGLE"/>
@@ -40,7 +40,7 @@
                                 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                                 <entry key="is_null" type="xboolean" value="false"/>
                             </config>
-                            <entry key="value" type="xlong" value="5575"/>
+                            <entry key="value" type="xlong" value="5574"/>
                         </config>
                     </config>
                     <entry key="inputKind" type="xstring" value="SINGLE"/>
@@ -93,6 +93,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ed07276b-08d1-421b-956f-6500d37530d3"/>
+        <entry key="file_store_id" type="xstring" value="2c4c87b1-0b4b-4f20-aae9-a7f817c18129"/>
     </config>
 </config>
