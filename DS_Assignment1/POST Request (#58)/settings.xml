@@ -6,108 +6,138 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <entry key="Use constant URI" type="xboolean" value="true"/>
+        <entry key="Constant URI" type="xstring" value="https://api.scb.se/OV0104/v1/doris/sv/ssd/EN/EN0108/EN0108A/EltillfM"/>
+        <entry key="URI column" type="xstring" isnull="true" value=""/>
+        <entry key="delay_enabled" type="xboolean" value="false"/>
+        <entry key="delay" type="xlong" value="0"/>
+        <entry key="concurrency" type="xint" value="1"/>
+        <entry key="SSL ignore hostname errors" type="xboolean" value="false"/>
+        <entry key="SSL trust all" type="xboolean" value="false"/>
+        <entry key="Fail on connection problems" type="xboolean" value="false"/>
+        <config key="Request header keys">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
         <config key="Request header key selector">
             <entry key="array-size" type="xint" value="0"/>
         </config>
+        <config key="Request header key kind">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="Extract all response fields" type="xboolean" value="false"/>
+        <config key="Response header keys">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Status"/>
+            <entry key="1" type="xstring" value="Content-Type"/>
+        </config>
+        <config key="Response header column name">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Status"/>
+            <entry key="1" type="xstring" value="Content type"/>
+        </config>
+        <config key="Response header column type">
+            <entry key="array-size" type="xint" value="2"/>
+            <config key="0">
+                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <entry key="is_null" type="xboolean" value="false"/>
+            </config>
+            <config key="1">
+                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <entry key="is_null" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <entry key="Body column name" type="xstring" value="body"/>
+        <config key="None"/>
+        <entry key="None_enabled" type="xboolean" value="true"/>
         <config key="Basic">
             <config key="BASIC auth_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
             <config key="BASIC auth">
-                <entry key="selectedType" type="xstring" value="USER_PWD"/>
-                <entry key="password" type="xpassword" isnull="true" value=""/>
                 <entry key="credentials" type="xstring" isnull="true" value=""/>
                 <entry key="username" type="xstring" value=""/>
+                <entry key="password" type="xpassword" value=""/>
+                <entry key="selectedType" type="xstring" value="USER_PWD"/>
             </config>
         </config>
-        <entry key="Request body column" type="xstring" isnull="true" value=""/>
-        <entry key="Fail on connection problems" type="xboolean" value="false"/>
-        <entry key="Extract all response fields" type="xboolean" value="false"/>
-        <entry key="failOnClientError" type="xboolean" value="false"/>
-        <entry key="outputErrorCause" type="xboolean" value="false"/>
-        <entry key="delay_enabled" type="xboolean" value="false"/>
-        <entry key="timeout" type="xint" value="2"/>
-        <entry key="Constant URI" type="xstring" value="https://api.scb.se/OV0104/v1/doris/sv/ssd/START/EN/EN0108/EN0108A/Elprod"/>
-        <config key="Kerberos"/>
-        <config key="Response header column type">
-            <config key="0">
-                <entry key="is_null" type="xboolean" value="false"/>
-                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
-            </config>
-            <config key="1">
-                <entry key="is_null" type="xboolean" value="false"/>
-                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-            </config>
-            <entry key="array-size" type="xint" value="2"/>
-        </config>
-        <config key="Request header keys">
-            <entry key="array-size" type="xint" value="0"/>
-        </config>
-        <config key="Request header key kind">
-            <entry key="array-size" type="xint" value="0"/>
-        </config>
-        <entry key="follow redirects" type="xboolean" value="true"/>
         <entry key="Basic_enabled" type="xboolean" value="false"/>
-        <entry key="Digest_enabled" type="xboolean" value="false"/>
-        <entry key="use async client" type="xboolean" value="false"/>
-        <config key="Response header column name">
-            <entry key="array-size" type="xint" value="2"/>
-            <entry key="0" type="xstring" value="Status"/>
-            <entry key="1" type="xstring" value="Content type"/>
-        </config>
-        <entry key="Use constant URI" type="xboolean" value="true"/>
-        <entry key="URI column" type="xstring" isnull="true" value=""/>
-        <entry key="Kerberos_enabled" type="xboolean" value="false"/>
-        <entry key="failOnServerError" type="xboolean" value="false"/>
         <config key="Digest">
-            <config key="Digest auth">
-                <entry key="selectedType" type="xstring" value="USER_PWD"/>
-                <entry key="password" type="xpassword" isnull="true" value=""/>
-                <entry key="credentials" type="xstring" isnull="true" value=""/>
-                <entry key="username" type="xstring" value=""/>
-            </config>
             <config key="Digest auth_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
+            <config key="Digest auth">
+                <entry key="credentials" type="xstring" isnull="true" value=""/>
+                <entry key="username" type="xstring" value=""/>
+                <entry key="password" type="xpassword" value=""/>
+                <entry key="selectedType" type="xstring" value="USER_PWD"/>
+            </config>
         </config>
-        <entry key="allowChunking" type="xboolean" value="true"/>
-        <entry key="NTLM (Labs)_enabled" type="xboolean" value="false"/>
-        <entry key="Constant request body" type="xstring" value="{%%00010  &quot;query&quot;: [%%00010    {%%00010      &quot;code&quot;: &quot;Tid&quot;,%%00010      &quot;selection&quot;: {%%00010        &quot;filter&quot;: &quot;item&quot;,%%00010        &quot;values&quot;: [%%00010          &quot;2022M08&quot;%%00010        ]%%00010      }%%00010    }%%00010  ],%%00010  &quot;response&quot;: {%%00010    &quot;format&quot;: &quot;json&quot;%%00010  }%%00010}"/>
+        <entry key="Digest_enabled" type="xboolean" value="false"/>
         <config key="NTLM (Labs)">
             <config key="NTLM-auth_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
             </config>
-            <entry key="org.knime.rest.auth.ntlm.domain" type="xstring" value=""/>
             <config key="NTLM-auth">
-                <entry key="selectedType" type="xstring" value="USER_PWD"/>
-                <entry key="password" type="xpassword" isnull="true" value=""/>
                 <entry key="credentials" type="xstring" isnull="true" value=""/>
                 <entry key="username" type="xstring" value=""/>
+                <entry key="password" type="xpassword" value=""/>
+                <entry key="selectedType" type="xstring" value="USER_PWD"/>
+            </config>
+            <entry key="org.knime.rest.auth.ntlm.domain" type="xstring" value=""/>
+        </config>
+        <entry key="NTLM (Labs)_enabled" type="xboolean" value="false"/>
+        <config key="Kerberos"/>
+        <entry key="Kerberos_enabled" type="xboolean" value="false"/>
+        <config key="Bearer">
+            <config key="Bearer auth_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <config key="Bearer auth">
+                <entry key="credentials" type="xstring" isnull="true" value=""/>
+                <entry key="username" type="xstring" value=""/>
+                <entry key="password" type="xpassword" value=""/>
+                <entry key="selectedType" type="xstring" value="PWD"/>
             </config>
         </config>
-        <entry key="None_enabled" type="xboolean" value="true"/>
-        <entry key="concurrency" type="xint" value="1"/>
+        <entry key="Bearer_enabled" type="xboolean" value="false"/>
+        <entry key="follow redirects" type="xboolean" value="true"/>
+        <entry key="connectTimeout" type="xint" value="2"/>
+        <entry key="readTimeout" type="xint" value="2"/>
         <config key="delayPolicy">
-            <entry key="delayRateLimitCooldown" type="xlong" value="60"/>
-            <entry key="delayCooldownEnabled" type="xboolean" value="false"/>
-            <entry key="delayMaxRetries" type="xint" value="3"/>
             <entry key="delayRetryBase" type="xlong" value="1"/>
+            <entry key="delayMaxRetries" type="xint" value="3"/>
+            <entry key="delayRateLimitCooldown" type="xlong" value="60"/>
             <entry key="delayRetriesEnabled" type="xboolean" value="false"/>
+            <entry key="delayCooldownEnabled" type="xboolean" value="false"/>
         </config>
-        <entry key="delay" type="xlong" value="0"/>
-        <entry key="SSL ignore hostname errors" type="xboolean" value="false"/>
-        <config key="Response header keys">
-            <entry key="array-size" type="xint" value="2"/>
-            <entry key="0" type="xstring" value="Status"/>
-            <entry key="1" type="xstring" value="Content-Type"/>
+        <entry key="failOnServerError" type="xboolean" value="false"/>
+        <entry key="failOnClientError" type="xboolean" value="false"/>
+        <entry key="outputErrorCause" type="xboolean" value="false"/>
+        <entry key="allowChunking" type="xboolean" value="true"/>
+        <config key="Invalid URL handling_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
+        <entry key="Invalid URL handling" type="xstring" value="MISSING"/>
+        <entry key="failOnMissingHeaders" type="xboolean" value="false"/>
+        <config key="Proxy auth_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="Proxy auth">
+            <entry key="credentials" type="xstring" value=""/>
+            <entry key="username" type="xstring" value=""/>
+            <entry key="password" type="xpassword" isnull="true" value=""/>
+            <entry key="selectedType" type="xstring" value="USER_PWD"/>
+        </config>
+        <entry key="Proxy_enabled" type="xboolean" value="true"/>
         <entry key="Use constant request body" type="xboolean" value="true"/>
-        <entry key="SSL trust all" type="xboolean" value="false"/>
-        <config key="None"/>
-        <entry key="Body column name" type="xstring" value="body"/>
+        <entry key="Constant request body" type="xstring" value="{%%00010  &quot;query&quot;: [%%00010    {%%00010      &quot;code&quot;: &quot;Tid&quot;,%%00010      &quot;selection&quot;: {%%00010        &quot;filter&quot;: &quot;item&quot;,%%00010        &quot;values&quot;: [%%00010          &quot;2022M01&quot;,%%00010          &quot;2022M02&quot;,%%00010          &quot;2022M03&quot;,%%00010          &quot;2022M04&quot;,%%00010          &quot;2022M05&quot;,%%00010          &quot;2022M06&quot;,%%00010          &quot;2022M07&quot;,%%00010          &quot;2022M08&quot;,%%00010          &quot;2022M09&quot;,%%00010          &quot;2022M10&quot;,%%00010          &quot;2022M11&quot;,%%00010          &quot;2022M12&quot;,%%00010          &quot;2023M01&quot;%%00010        ]%%00010      }%%00010    }%%00010  ],%%00010  &quot;response&quot;: {%%00010    &quot;format&quot;: &quot;json&quot;%%00010  }%%00010}"/>
+        <entry key="Request body column" type="xstring" isnull="true" value=""/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -141,6 +171,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5e12e785-43e1-4d72-a043-31adc77c186f"/>
+        <entry key="file_store_id" type="xstring" value="57bd2620-908a-4f44-8d2e-7c1e4d6a00de"/>
     </config>
 </config>
