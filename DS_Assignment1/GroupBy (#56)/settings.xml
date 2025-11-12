@@ -12,17 +12,16 @@
         </config>
         <config key="grouByColumns">
             <config key="InclList">
-                <entry key="array-size" type="xint" value="3"/>
-                <entry key="0" type="xstring" value="Station"/>
-                <entry key="1" type="xstring" value="Year"/>
-                <entry key="2" type="xstring" value="Month"/>
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="Year"/>
+                <entry key="1" type="xstring" value="Month"/>
             </config>
             <config key="ExclList">
                 <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="From"/>
                 <entry key="1" type="xstring" value="To"/>
                 <entry key="2" type="xstring" value="Stationsnät"/>
-                <entry key="3" type="xstring" value="min Temp"/>
+                <entry key="3" type="xstring" value="Temp"/>
                 <entry key="4" type="xstring" value="Day of Month"/>
                 <entry key="5" type="xstring" value="Hour"/>
             </config>
@@ -56,13 +55,13 @@
         <config key="aggregationColumn">
             <config key="columnNames">
                 <entry key="array-size" type="xint" value="7"/>
-                <entry key="0" type="xstring" value="min Temp"/>
-                <entry key="1" type="xstring" value="min Temp"/>
-                <entry key="2" type="xstring" value="min Temp"/>
-                <entry key="3" type="xstring" value="min Temp"/>
-                <entry key="4" type="xstring" value="min Temp"/>
-                <entry key="5" type="xstring" value="min Temp"/>
-                <entry key="6" type="xstring" value="min Temp"/>
+                <entry key="0" type="xstring" value="Temp"/>
+                <entry key="1" type="xstring" value="Temp"/>
+                <entry key="2" type="xstring" value="Temp"/>
+                <entry key="3" type="xstring" value="Temp"/>
+                <entry key="4" type="xstring" value="Temp"/>
+                <entry key="5" type="xstring" value="Temp"/>
+                <entry key="6" type="xstring" value="Temp"/>
             </config>
             <config key="columnTypes">
                 <entry key="array-size" type="xint" value="7"/>
@@ -97,13 +96,13 @@
             </config>
             <config key="aggregationMethod">
                 <entry key="array-size" type="xint" value="7"/>
-                <entry key="0" type="xstring" value="Median_V3.4"/>
-                <entry key="1" type="xstring" value="Minimum"/>
-                <entry key="2" type="xstring" value="Range"/>
-                <entry key="3" type="xstring" value="Standard deviation"/>
-                <entry key="4" type="xstring" value="Count"/>
-                <entry key="5" type="xstring" value="Mean_V4.6"/>
-                <entry key="6" type="xstring" value="Maximum"/>
+                <entry key="0" type="xstring" value="Mean_V4.6"/>
+                <entry key="1" type="xstring" value="Median_V3.4"/>
+                <entry key="2" type="xstring" value="Minimum"/>
+                <entry key="3" type="xstring" value="Maximum"/>
+                <entry key="4" type="xstring" value="Standard deviation"/>
+                <entry key="5" type="xstring" value="Range"/>
+                <entry key="6" type="xstring" value="Count"/>
             </config>
             <config key="inclMissingVals">
                 <entry key="array-size" type="xint" value="7"/>
@@ -117,7 +116,7 @@
             </config>
         </config>
         <config key="aggregationOperatorSettings">
-            <config key="Median_V3.4_min Temp">
+            <config key="Median_V3.4_Temp">
                 <config key="medianMethod_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
                     <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -180,12 +179,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 52, Cols: 3"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 14, Cols: 9"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="dbfcd038-84c0-4a3c-9451-98da003df048"/>
+        <entry key="file_store_id" type="xstring" value="c2c49b3a-de7e-4d35-83f3-545f9f740975"/>
     </config>
 </config>

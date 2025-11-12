@@ -7,9 +7,9 @@
     </config>
     <config key="model">
         <entry key="intersection_of_columns" type="xboolean" value="false"/>
-        <entry key="create_new_rowids" type="xboolean" value="true"/>
+        <entry key="create_new_rowids" type="xboolean" value="false"/>
         <entry key="fail_on_duplicates" type="xboolean" value="false"/>
-        <entry key="append_suffix" type="xboolean" value="false"/>
+        <entry key="append_suffix" type="xboolean" value="true"/>
         <entry key="suffix" type="xstring" value="_dup"/>
         <entry key="enable_hiliting" type="xboolean" value="false"/>
     </config>
@@ -43,11 +43,7 @@
     <entry key="node-feature-version" type="xstring" value="5.8.0.v202510021208"/>
     <config key="factory_settings"/>
     <config key="node_creation_config">
-        <config key="input">
-            <config key="port_0">
-                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            </config>
-        </config>
+        <config key="input"/>
         <config key="Concatenated tables"/>
     </config>
     <entry key="name" type="xstring" value="Concatenate"/>
@@ -58,12 +54,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 247, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 28, Cols: 16"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="dd70919d-d81c-40ba-9d4c-ae035cb2774a"/>
+        <entry key="file_store_id" type="xstring" value="3e6231aa-a395-4a8c-a789-db51f7b63ca5"/>
     </config>
 </config>
