@@ -1,0 +1,13 @@
+# KNIME workspace junk
+.metadata/
+Example Workflows/
+*/cefcache/
+*/Cache/
+*.log
+
+# KNIME autosave temp dirs
+*/#*/
+
+# Optional: OS files
+Thumbs.db
+.DS_Store
