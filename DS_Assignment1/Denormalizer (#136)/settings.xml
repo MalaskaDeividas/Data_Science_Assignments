@@ -13,11 +13,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.5.1.v202507241550"/>
+    <entry key="node-bundle-version" type="xstring" value="5.8.0.v202510020824"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.5.1.v202507241550"/>
+    <entry key="node-feature-version" type="xstring" value="5.8.0.v202510021208"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Denormalizer"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -27,12 +27,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 12, Cols: 31"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 12, Cols: 40"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b9621f56-052c-4f34-aa84-db436cf2dc83"/>
+        <entry key="file_store_id" type="xstring" value="0461d6c1-9335-4669-8388-ef3d22da8976"/>
     </config>
 </config>
