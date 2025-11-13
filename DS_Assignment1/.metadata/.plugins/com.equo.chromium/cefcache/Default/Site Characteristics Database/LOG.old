@@ -1,3 +1,5 @@
-2025/11/11-11:19:51.420 b45c Reusing MANIFEST C:\Users\David\Desktop\PROGRAMMING\Knime\Ny mapp\workspace\Data_Science_Assignments\DS_Assignment1\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database/MANIFEST-000001
-2025/11/11-11:19:51.420 b45c Recovering log #3
-2025/11/11-11:19:51.421 b45c Reusing old log C:\Users\David\Desktop\PROGRAMMING\Knime\Ny mapp\workspace\Data_Science_Assignments\DS_Assignment1\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database/000003.log 
+2025/11/13-09:11:41.245 70c4 Log #3: 4 ops saved to Table #4 OK
+2025/11/13-09:11:41.248 70c4 Archiving C:\Users\made22sx\knimepls\Data_Science_Assignments\DS_Assignment1\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database/000003.log: OK
+2025/11/13-09:11:41.249 70c4 Table #4: 4 entries OK
+2025/11/13-09:11:41.251 70c4 Archiving C:\Users\made22sx\knimepls\Data_Science_Assignments\DS_Assignment1\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database/MANIFEST-000001: OK
+2025/11/13-09:11:41.274 70c4 **** Repaired leveldb C:\Users\made22sx\knimepls\Data_Science_Assignments\DS_Assignment1\.metadata\.plugins\com.equo.chromium\cefcache\Default\Site Characteristics Database; recovered 1 files; 236 bytes. Some data may have been lost. ****
