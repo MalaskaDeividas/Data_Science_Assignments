@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="generateImage" type="xboolean" value="false"/>
+        <entry key="imageFormat" type="xstring" value="SVG"/>
+        <entry key="width" type="xint" value="800"/>
+        <entry key="height" type="xint" value="600"/>
+        <entry key="categoryColumnV3" type="xstring" value="Cluster"/>
+        <entry key="aggregationMethod" type="xstring" value="NONE"/>
+        <config key="frequencyColumnsV2">
+            <entry key="mode" type="xstring" value="MANUAL"/>
+            <config key="patternFilter">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="isCaseSensitive" type="xboolean" value="false"/>
+                <entry key="isInverted" type="xboolean" value="false"/>
+            </config>
+            <config key="manualFilter">
+                <config key="manuallySelected">
+                    <entry key="array-size" type="xint" value="1"/>
+                    <entry key="0" type="xstring" value="Median(Temp)"/>
+                </config>
+                <config key="manuallyDeselected">
+                    <entry key="array-size" type="xint" value="29"/>
+                    <entry key="0" type="xstring" value="Year"/>
+                    <entry key="1" type="xstring" value="Month"/>
+                    <entry key="2" type="xstring" value="Mean(Nederbördsmängd (m))"/>
+                    <entry key="3" type="xstring" value="Median(Nederbördsmängd (m))"/>
+                    <entry key="4" type="xstring" value="Min*(Nederbördsmängd (m))"/>
+                    <entry key="5" type="xstring" value="Max*(Nederbördsmängd (m))"/>
+                    <entry key="6" type="xstring" value="Standard deviation(Nederbördsmängd (m))"/>
+                    <entry key="7" type="xstring" value="Count*(Nederbördsmängd (m))"/>
+                    <entry key="8" type="xstring" value="Range(Nederbördsmängd (m))"/>
+                    <entry key="9" type="xstring" value="Year (Right)"/>
+                    <entry key="10" type="xstring" value="Month (Right)"/>
+                    <entry key="11" type="xstring" value="Mean(Temp)"/>
+                    <entry key="12" type="xstring" value="Min*(Temp)"/>
+                    <entry key="13" type="xstring" value="Max*(Temp)"/>
+                    <entry key="14" type="xstring" value="Standard deviation(Temp)"/>
+                    <entry key="15" type="xstring" value="Range(Temp)"/>
+                    <entry key="16" type="xstring" value="Count*(Temp)"/>
+                    <entry key="17" type="xstring" value="Month (Right) (Right)"/>
+                    <entry key="18" type="xstring" value="Gast+Mean(Value)"/>
+                    <entry key="19" type="xstring" value="Imp+Mean(Value)"/>
+                    <entry key="20" type="xstring" value="Karn+Mean(Value)"/>
+                    <entry key="21" type="xstring" value="Kondens+Mean(Value)"/>
+                    <entry key="22" type="xstring" value="Mottri+Mean(Value)"/>
+                    <entry key="23" type="xstring" value="Mottrk+Mean(Value)"/>
+                    <entry key="24" type="xstring" value="Solar power+Mean(Value)"/>
+                    <entry key="25" type="xstring" value="SumVarmeKraft+Mean(Value)"/>
+                    <entry key="26" type="xstring" value="Tot+Mean(Value)"/>
+                    <entry key="27" type="xstring" value="Vatten+Mean(Value)"/>
+                    <entry key="28" type="xstring" value="Vind+Mean(Value)"/>
+                </config>
+                <entry key="includeUnknownColumns" type="xboolean" value="false"/>
+            </config>
+            <config key="typeFilter">
+                <config key="selectedTypes">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <config key="view">
+        <entry key="limitRows" type="xstring" value="AUTOMATIC"/>
+        <entry key="maxRows" type="xint" value="100"/>
+        <entry key="title" type="xstring" value="Bar Chart"/>
+        <entry key="customCategoryAxisLabelV2" type="xstring" isnull="true" value=""/>
+        <entry key="customCategoryAxisLabelV2_is_present" type="xboolean" value="false"/>
+        <entry key="customFrequencyAxisLabelV2" type="xstring" isnull="true" value=""/>
+        <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="false"/>
+        <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
+        <config key="manualAxisLimits">
+            <entry key="min" type="xdouble" value="0.0"/>
+            <entry key="max" type="xdouble" value="100.0"/>
+        </config>
+        <entry key="direction" type="xstring" value="VERTICAL"/>
+        <entry key="chartType" type="xstring" value="GROUPED"/>
+        <entry key="barGroups" type="xstring" value="DIMENSIONS"/>
+        <entry key="showLegend" type="xboolean" value="true"/>
+        <entry key="showValues" type="xboolean" value="false"/>
+        <entry key="allowImageDownload" type="xboolean" value="true"/>
+        <entry key="showTooltip" type="xboolean" value="true"/>
+        <entry key="selectionMode" type="xstring" value="EDIT"/>
+        <entry key="enableAnimation" type="xboolean" value="true"/>
+    </config>
+    <config key="view_variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.views.node.barchart.BarChartNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Bar Chart"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.views"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.1.v202507241234"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.1.v202507241234"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input Table"/>
+        <config key="Output Image"/>
+    </config>
+    <entry key="name" type="xstring" value="Bar Chart"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_0"/>
+            </config>
+            <config key="object_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_1"/>
+            </config>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="e3823918-fa93-42c6-80f5-b761b5e417ca"/>
+    </config>
+</config>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="hClust">
+    <entry key="distance" type="xdouble" value="2.887240409851074"/>
+    <entry key="isLeaf" type="xboolean" value="false"/>
+    <config key="leftChild">
+        <entry key="distance" type="xdouble" value="2.2460777759552"/>
+        <entry key="isLeaf" type="xboolean" value="false"/>
+        <config key="leftChild">
+            <entry key="distance" type="xdouble" value="0.0"/>
+            <entry key="isLeaf" type="xboolean" value="true"/>
+            <entry key="row" type="xint" value="2"/>
+            <config key="leftChild"/>
+            <config key="rightChild"/>
+        </config>
+        <config key="rightChild">
+            <entry key="distance" type="xdouble" value="0.834611713886261"/>
+            <entry key="isLeaf" type="xboolean" value="false"/>
+            <config key="leftChild">
+                <entry key="distance" type="xdouble" value="0.0"/>
+                <entry key="isLeaf" type="xboolean" value="true"/>
+                <entry key="row" type="xint" value="0"/>
+                <config key="leftChild"/>
+                <config key="rightChild"/>
+            </config>
+            <config key="rightChild">
+                <entry key="distance" type="xdouble" value="0.0"/>
+                <entry key="isLeaf" type="xboolean" value="true"/>
+                <entry key="row" type="xint" value="11"/>
+                <config key="leftChild"/>
+                <config key="rightChild"/>
+            </config>
+        </config>
+    </config>
+    <config key="rightChild">
+        <entry key="distance" type="xdouble" value="2.5407490730285645"/>
+        <entry key="isLeaf" type="xboolean" value="false"/>
+        <config key="leftChild">
+            <entry key="distance" type="xdouble" value="1.7257851362228394"/>
+            <entry key="isLeaf" type="xboolean" value="false"/>
+            <config key="leftChild">
+                <entry key="distance" type="xdouble" value="0.0"/>
+                <entry key="isLeaf" type="xboolean" value="true"/>
+                <entry key="row" type="xint" value="1"/>
+                <config key="leftChild"/>
+                <config key="rightChild"/>
+            </config>
+            <config key="rightChild">
+                <entry key="distance" type="xdouble" value="0.0"/>
+                <entry key="isLeaf" type="xboolean" value="true"/>
+                <entry key="row" type="xint" value="9"/>
+                <config key="leftChild"/>
+                <config key="rightChild"/>
+            </config>
+        </config>
+        <config key="rightChild">
+            <entry key="distance" type="xdouble" value="1.7783046960830688"/>
+            <entry key="isLeaf" type="xboolean" value="false"/>
+            <config key="leftChild">
+                <entry key="distance" type="xdouble" value="0.3429625332355499"/>
+                <entry key="isLeaf" type="xboolean" value="false"/>
+                <config key="leftChild">
+                    <entry key="distance" type="xdouble" value="0.0"/>
+                    <entry key="isLeaf" type="xboolean" value="true"/>
+                    <entry key="row" type="xint" value="3"/>
+                    <config key="leftChild"/>
+                    <config key="rightChild"/>
+                </config>
+                <config key="rightChild">
+                    <entry key="distance" type="xdouble" value="0.0"/>
+                    <entry key="isLeaf" type="xboolean" value="true"/>
+                    <entry key="row" type="xint" value="10"/>
+                    <config key="leftChild"/>
+                    <config key="rightChild"/>
+                </config>
+            </config>
+            <config key="rightChild">
+                <entry key="distance" type="xdouble" value="1.1955147981643677"/>
+                <entry key="isLeaf" type="xboolean" value="false"/>
+                <config key="leftChild">
+                    <entry key="distance" type="xdouble" value="0.6160390973091125"/>
+                    <entry key="isLeaf" type="xboolean" value="false"/>
+                    <config key="leftChild">
+                        <entry key="distance" type="xdouble" value="0.0"/>
+                        <entry key="isLeaf" type="xboolean" value="true"/>
+                        <entry key="row" type="xint" value="6"/>
+                        <config key="leftChild"/>
+                        <config key="rightChild"/>
+                    </config>
+                    <config key="rightChild">
+                        <entry key="distance" type="xdouble" value="0.0"/>
+                        <entry key="isLeaf" type="xboolean" value="true"/>
+                        <entry key="row" type="xint" value="7"/>
+                        <config key="leftChild"/>
+                        <config key="rightChild"/>
+                    </config>
+                </config>
+                <config key="rightChild">
+                    <entry key="distance" type="xdouble" value="0.9973502159118652"/>
+                    <entry key="isLeaf" type="xboolean" value="false"/>
+                    <config key="leftChild">
+                        <entry key="distance" type="xdouble" value="0.0"/>
+                        <entry key="isLeaf" type="xboolean" value="true"/>
+                        <entry key="row" type="xint" value="4"/>
+                        <config key="leftChild"/>
+                        <config key="rightChild"/>
+                    </config>
+                    <config key="rightChild">
+                        <entry key="distance" type="xdouble" value="0.822019100189209"/>
+                        <entry key="isLeaf" type="xboolean" value="false"/>
+                        <config key="leftChild">
+                            <entry key="distance" type="xdouble" value="0.0"/>
+                            <entry key="isLeaf" type="xboolean" value="true"/>
+                            <entry key="row" type="xint" value="5"/>
+                            <config key="leftChild"/>
+                            <config key="rightChild"/>
+                        </config>
+                        <config key="rightChild">
+                            <entry key="distance" type="xdouble" value="0.0"/>
+                            <entry key="isLeaf" type="xboolean" value="true"/>
+                            <entry key="row" type="xint" value="8"/>
+                            <config key="leftChild"/>
+                            <config key="rightChild"/>
+                        </config>
+                    </config>
+                </config>
+            </config>
+        </config>
+    </config>
+</config>
