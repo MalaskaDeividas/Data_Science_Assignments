@@ -17,15 +17,15 @@
         <config key="include">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="1"/>
+                <entry key="array-size" type="xint" value="2"/>
                 <entry key="0" type="xstring" value="min Temp"/>
+                <entry key="1" type="xstring" value="Nederbördsmängd (m)"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="4"/>
+                <entry key="array-size" type="xint" value="3"/>
                 <entry key="0" type="xstring" value="From"/>
                 <entry key="1" type="xstring" value="To"/>
                 <entry key="2" type="xstring" value="Stationsnät"/>
-                <entry key="3" type="xstring" value="Station"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -82,6 +82,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="adb299a0-4114-4377-814c-e9304dd13a32"/>
+        <entry key="file_store_id" type="xstring" value="cd4d0952-f0a9-44cb-9388-7fd23075a9e3"/>
     </config>
 </config>
